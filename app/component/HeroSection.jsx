@@ -40,14 +40,15 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-                <div className="rounded-full bg-[#202020] w-[250px] h-[250px] relative lg:w-[400px] lg:h-[400px]">
-                    {/* <Image
-                        src=""
+                <div className="rounded-full bg-[#202020] w-[250px] h-[250px] relative lg:w-[380px] lg:h-[380px]">
+                    <Image
+                        src="/images/icon-image.png"
                         alt="Hero Image"
-                        className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:scale-125"
                         width={300}
                         height={300}
-                    /> */}
+                    />
+                    {/* image masih low quality */}
                 </div>
             </div>
         </div>
