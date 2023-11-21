@@ -1,7 +1,7 @@
-// import useSWR from 'swr'
+"use client";
 import React from 'react'
 import Image from 'next/image'
-// import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
   return (
@@ -10,10 +10,10 @@ const HeroSection = () => {
             <div className="col-span-7 place-self-center text-center sm:text-left">
                 <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D05353] to-[#E58F65]">
-                        Hello, I'm {" "}
+                        Hello, I&apos;m {" "}
                     </span>
                     <br />
-                    {/* <TypeAnimation
+                    <TypeAnimation
                         sequence={[
                             'Abiyyu',
                             1000,
@@ -23,7 +23,7 @@ const HeroSection = () => {
                         wrapper="span"
                         speed={50}
                         repeat={Infinity}
-                    /> */}
+                    />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, ipsa.
@@ -33,7 +33,7 @@ const HeroSection = () => {
                         Hire Me
                     </button>
                     <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-[#D05353] via-[#E58F65] to-[#F9E784] hover:bg-slate-800 text-white mt-3'>
-                        <span className='block bg-[#191919] hover:bg-slate-800 rounded-full px-5 py-2'>
+                        <span className='block bg-[#191919] hover:bg-yellow-950 rounded-full px-5 py-2'>
                             Download CV
                         </span>
                     </button>
