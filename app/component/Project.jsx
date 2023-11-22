@@ -6,27 +6,27 @@ import ProjectTag from './ProjectTag';
 const projectData = [
     {
         id: 1,
-        title: "Nama Project",
-        description: "Deskripsinya",
-        image: "/images/Project",
+        title: "JAMBO",
+        description: "Collage-Project Website for indie game developer",
+        image: "/images/Project/1.jpg",
         tags: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/Blahaj-Lover/Jambo_Front_End",
         previewUrl: "/"
     },
     {
         id: 2,
-        title: "Nama Project",
-        description: "Deskripsinya",
-        image: "/images/Project",
+        title: "Polyminal",
+        description: "[ON GOING] Collage-Project Website for shapes using three js",
+        image: "/images/Project/2.jpg",
         tags: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/SyafiqSyech/Polyminal",
         previewUrl: "/"
     },
     {
         id: 3,
         title: "Nama Project",
-        description: "Deskripsinya",
-        image: "/images/Project",
+        description: "Collage-Project Website for indie game developer",
+        image: "/images/Project/1.jpg",
         tags: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/"
@@ -34,8 +34,8 @@ const projectData = [
     {
         id: 4,
         title: "Nama Project",
-        description: "Deskripsinya",
-        image: "/images/Project",
+        description: "Collage-Project Website for indie game developer",
+        image: "/images/Project/1.jpg",
         tags: ["All", "UI/UX"],
         gitUrl: "/",
         previewUrl: "/"
@@ -75,7 +75,7 @@ const Project = () => {
                 isSelected={tag === "UI/UX"}
             />
         </div>
-        <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
+        <div className='grid md:grid-cols-2 gap-8 md:gap-12'>
             {filteredProjects.map((project) => (
                 <ProjectCard 
                     key={project.id} 

@@ -41,9 +41,8 @@ const EmailSection = () => {
 
   return (
     <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative'>
-        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
-        <div className='z-10'></div>
-        <div>
+        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#813333] to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+        <div >
             <h5 className='text-xl font-bold text-white my-2'>
                 Let&apos;s Connect
             </h5>
@@ -55,10 +54,10 @@ const EmailSection = () => {
                 necessitatibus facere iusto!
             </p>
             <div className='socials flex flex-row gap-2'>
-                <Link href={"/"}>
+                <Link href={"https://github.com/Abigalih"}>
                     <Image src={GitHubIcon} alt="Github Icon"/>
                 </Link>
-                <Link href={"/"}>
+                <Link href={"https://www.linkedin.com/in/abiyyu-galih-ghifari-1736b2224/"}>
                     <Image src={LinkedinIcon} alt="Github Icon"/>
                 </Link>
             </div>
