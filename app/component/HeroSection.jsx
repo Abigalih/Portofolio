@@ -45,8 +45,8 @@ const HeroSection = () => {
                         src="/images/icon-image.png"
                         alt="Hero Image"
                         className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:scale-125"
-                        width={300}
-                        height={300}
+                        width={320}
+                        height={320}
                     />
                     {/* image masih low quality */}
                 </div>
