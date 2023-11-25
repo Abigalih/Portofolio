@@ -88,7 +88,7 @@ const SkillData = [
 
 const SkillSection = () => {
   return (
-    <div
+    <section id='skill'
         className="flex items-center justify-center bg-cover bg-center py-4 md:py-8"
     >
         <div className="flex flex-col gap-10 max-w-[80%] text-center items-center">
@@ -152,7 +152,7 @@ const SkillSection = () => {
                 ))}
             </Swiper>
         </div>
-    </div>
+    </section>
   )
 }
 

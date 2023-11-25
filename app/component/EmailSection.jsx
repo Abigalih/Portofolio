@@ -40,18 +40,19 @@ const EmailSection = () => {
     }
 
   return (
-    <section className='grid md:grid-cols-2 md:my-12 py-24 gap-4 relative'>
-        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#813333] to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+    <section id='contact' className='grid md:grid-cols-2 md:my-12 py-24 gap-4 relative'>
+        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#813333] to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute md:top-2/3 top-1/2 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+        {/* aslinya top-3/4 */}
         <div >
             <h5 className='text-xl font-bold text-white my-2'>
                 Let&apos;s Connect
             </h5>
             <p className='text-[#ADB7BE] mb-4 max-w-md'>
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Et temporibus debitis quo, facilis praesentium aliquid, 
-                ipsa tempore, fuga nihil natus veniam repudiandae molestiae 
-                necessitatibus facere iusto!
+                My excellent communication and collaboration abilities make me a valuable 
+                addition to any team. If you&apos;re interested in a driven and adaptable 
+                developer, feel free to reach out. Let&apos;s explore how I can contribute to your
+                web development projects and help drive them to success!
             </p>
             <div className='socials flex flex-row gap-2'>
                 <Link href={"https://github.com/Abigalih"}>
@@ -63,7 +64,7 @@ const EmailSection = () => {
             </div>
         </div>
 
-        <div>
+        {/* <div>
             <form className='flex flex-col' onSubmit={handleSubmit}>
                 <div className='mb-6'>
                     <label 
@@ -124,7 +125,7 @@ const EmailSection = () => {
                     )
                 }
             </form>
-        </div>
+        </div> */}
     </section>
   )
 }
