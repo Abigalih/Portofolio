@@ -51,8 +51,7 @@ const EmailSection = () => {
                 {" "}
                 My excellent communication and collaboration abilities make me a valuable 
                 addition to any team. If you&apos;re interested in a driven and adaptable 
-                developer, feel free to reach out. Let&apos;s explore how I can contribute to your
-                web development projects and help drive them to success!
+                developer, feel free to reach out.
             </p>
             <div className='socials flex flex-row gap-2'>
                 <Link href={"https://github.com/Abigalih"}>
