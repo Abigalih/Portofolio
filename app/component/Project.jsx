@@ -23,15 +23,15 @@ const projectData = [
         gitUrl: "https://github.com/SyafiqSyech/Polyminal",
         previewUrl: "/"
     },
-    // {
-    //     id: 3,
-    //     title: "Nama Project",
-    //     description: "Collage-Project Website for indie game developer",
-    //     image: "/Images/Project/1.jpg",
-    //     tags: ["All", "Web"],
-    //     gitUrl: "/",
-    //     previewUrl: "/"
-    // },
+    {
+        id: 3,
+        title: "Game Booster",
+        description: "[ON GOING] Collage-Project Website for gamers using laravel & bootstrap",
+        image: "/Images/Project/3.png",
+        tags: ["All", "Web"],
+        gitUrl: "https://github.com/firshada/GameBooster",
+        previewUrl: "/"
+    },
     // {
     //     id: 4,
     //     title: "Nama Project",
