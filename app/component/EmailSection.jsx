@@ -67,6 +67,14 @@ const EmailSection = () => {
             </div>
         </div>
 
+        <div className='p-10'>
+
+        </div>
+        
+        <div className='p-10'>
+
+        </div>
+
         {/* <div>
             <form className='flex flex-col' onSubmit={handleSubmit}>
                 <div className='mb-6'>
