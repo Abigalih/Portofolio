@@ -17,7 +17,7 @@ const projectData = [
     {
         id: 2,
         title: "Polyminal",
-        description: "[ON GOING] Collage-Project Website for shapes using three js",
+        description: "Collage-Project Website for shapes using React js & Three js",
         image: "/Images/Project/2.jpg",
         tags: ["All", "Web"],
         gitUrl: "https://github.com/SyafiqSyech/Polyminal",
@@ -26,7 +26,7 @@ const projectData = [
     {
         id: 3,
         title: "Game Booster",
-        description: "[ON GOING] Collage-Project Website for gamers using laravel & bootstrap",
+        description: "Collage-Project Website for gamers using laravel & bootstrap",
         image: "/Images/Project/3.png",
         tags: ["All", "Web"],
         gitUrl: "https://github.com/firshada/GameBooster",
